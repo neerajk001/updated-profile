@@ -16,7 +16,7 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-extrabold mb-4">About Me</h2>
           <p className="text-lg md:text-xl text-muted-foreground">
-            My journey in web development and the skills I've acquired
+            My journey in web development and the skills I have acquired
           </p>
         </div>
 
@@ -34,7 +34,7 @@ const About = () => {
             <div>
               <h3 className="text-2xl font-semibold mb-3">Experience</h3>
               <p className="text-muted-foreground leading-relaxed">
-                I've worked on multiple freelance and personal projects — ranging from static pages to scalable full-stack apps.
+                I have  worked on multiple freelance and personal projects — ranging from static pages to scalable full-stack apps.
                 I enjoy building clean UIs and making user-friendly experiences that solve real problems.
               </p>
             </div>

@@ -23,7 +23,8 @@ const Hero = () => {
         {/* ✅ Text Content */}
         <div className="order-2 md:order-1 space-y-6 text-center md:text-left">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
-            Hi, I'm <span className="text-primary">Neeraj Kushwaha</span>
+            Hi, I&apos;m <span className="text-blue-500">Neeraj Kushwaha</span>
+
           </h1>
 
           <p className="text-lg md:text-xl font-medium text-muted-foreground">

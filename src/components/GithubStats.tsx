@@ -13,7 +13,7 @@ const GithubStats = () => {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4 text-primary">GitHub Contributions</h2>
           <p className="text-lg text-muted-foreground">
-            Here's a snapshot of my open-source activity over the past year.
+            Here s a snapshot of my open-source activity over the past year.
           </p>
         </div>
 
