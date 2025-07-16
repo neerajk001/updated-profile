@@ -13,8 +13,8 @@ const Hero = () => {
         <div className="flex justify-center md:justify-end order-1 md:order-2">
           <Image
             src="/portfolio-img.png"
-            width={400}
-            height={400}
+            width={300}
+            height={300}
             alt="Neeraj's Profile"
             className="rounded-full shadow-xl border border-gray-300 dark:border-gray-700"
           />
@@ -35,8 +35,8 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row sm:justify-start justify-center gap-4 pt-4">
-            <Button size="lg" className="w-full sm:w-48">View My Work</Button>
-            <Button size="lg" variant="outline" className="w-full sm:w-48">GitHub</Button>
+            <Button size="lg" className="w-full sm:w-48 bg-white text-lg">View My Work</Button>
+            <Button size="lg" variant="outline" className="w-full sm:w-48 border-2 border-white">GitHub</Button>
           </div>
         </div>
 

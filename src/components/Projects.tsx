@@ -92,8 +92,8 @@ const Projects = () => {
         </div>
 
         {/* Tabs */}
-        <div className="flex justify-center mb-12">
-          <div className="flex bg-muted rounded-lg p-1 space-x-1">
+        <div className="flex justify-center mb-12 text-black">
+          <div className="flex bg-white text-black rounded-lg p-1 space-x-1">
             {['fullstack', 'mini', 'landing'].map((tab) => (
               <button
                 key={tab}

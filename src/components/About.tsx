@@ -45,7 +45,7 @@ const About = () => {
             <h3 className="text-2xl font-semibold mb-6">Skills & Technologies</h3>
             <div className="flex flex-wrap gap-3">
               {skills.map(skill => (
-                <Badge key={skill} variant="secondary" className="text-base px-4 py-2">
+                <Badge key={skill} variant="secondary" className="text-white text-lg border-1 border-white px-6 py-3">
                   {skill}
                 </Badge>
               ))}
