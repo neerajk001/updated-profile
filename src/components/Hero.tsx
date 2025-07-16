@@ -10,15 +10,15 @@ const Hero = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center w-full">
 
         {/* ✅ Image First on Mobile */}
-        <div className="flex justify-center md:justify-end order-1 md:order-2">
-          <Image
-            src="/real.png"
-            width={300}
-            height={300}
-            alt="Neeraj's Profile"
-            className="rounded-full shadow-xl border border-gray-300 dark:border-gray-700"
-          />
-        </div>
+<div className="flex justify-center md:justify-end order-1 md:order-2">
+  <Image
+    src="/real.png"
+    width={300} // Keep width and height equal
+    height={300}
+    alt="Neeraj's Profile"
+    className="rounded-full object-cover shadow-xl border border-gray-300 dark:border-gray-700"
+  />
+</div>
 
         {/* ✅ Text Content */}
         <div className="order-2 md:order-1 space-y-6 text-center md:text-left">
