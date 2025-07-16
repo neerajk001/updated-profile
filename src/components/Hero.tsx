@@ -12,7 +12,7 @@ const Hero = () => {
         {/* ✅ Image First on Mobile */}
         <div className="flex justify-center md:justify-end order-1 md:order-2">
           <Image
-            src="/portfolio-img.png"
+            src="/real.png"
             width={300}
             height={300}
             alt="Neeraj's Profile"
