@@ -6,7 +6,7 @@ import { Button } from './ui/button'
 
 const Hero = () => {
   return (
-    <section className="min-h-screen w-full flex items-center bg-background px-6 md:px-12 lg:px-24">
+    <section className="min-h-screen w-full flex items-center bg-background px-6 md:px-12 lg:px-24 bg-black">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center w-full">
 
         {/* ✅ Image First on Mobile */}
