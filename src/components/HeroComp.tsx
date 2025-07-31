@@ -14,8 +14,10 @@ const HeroComp = () => {
     <div className="max-w-8xl grid md:grid-cols-2 grid-cols-1 bg-black gap-4 md:gap-8 mt-4 p-2 md:p-4">
       {/* Left Column */}
       <div>
+        
         {/* Top row: profile image & icons */}
-        <div className="flex flex-row items-center space-x-4 md:space-x-6">
+        <div className="flex  gap-2 space-x-4 md:space-x-6">
+          
           {/* Profile Image */}
           <div>
             <Image
@@ -26,12 +28,22 @@ const HeroComp = () => {
               src={"/profile.png"}
             />
           </div>
+          <div>
+            
+           <div className="flex flex-col  space-x-3 ">
+            <span className="bg-green-900 text-green-300 px-3 py-1 rounded-full text-xs font-semibold w-[100px]">Available</span>
+      <h1 className="text-2xl md:text-3xl font-bold text-white mt-4">Neeraj Kushwaha </h1>
+     <p className='text-gray-200'>software engineer</p>
+      
+    </div>
+          
           {/* Social Icons */}
-          <div className="flex border border-white rounded h-8 w-auto items-center px-2 gap-2">
+          <div className="flex mt-4   rounded h-8 w-auto items-center px-2 gap-2">
+            
             {socialIcons.map((icon, idx) => (
               <a key={idx} href={icon.href} target="_blank" rel="noopener noreferrer">
                 <Image
-                  className="object-contain invert"
+                  className="object-contain invert   border-white"
                   width={30}
                   height={30}
                   alt={icon.alt}
@@ -40,6 +52,7 @@ const HeroComp = () => {
               </a>
             ))}
           </div>
+        </div>
         </div>
 
         {/* Responsive action buttons */}
