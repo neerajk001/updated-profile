@@ -43,7 +43,7 @@ const HeroComp = () => {
         </div>
 
         {/* Responsive action buttons */}
-        <div className="flex  gap-2 mt-4 md:flex-row md:gap-6 md:space-x-3">
+        <div className="flex items-center justify-center  gap-2 mt-4 md:flex-row md:gap-6 md:space-x-3">
           <a
             href="/Neeraj_Resume.pdf"
             download
