@@ -27,20 +27,30 @@ const socialLinks = [
   },
 ];
 
-export default function BottomBar() {
+const BottomBar = () => {
   return (
-    <div className="fixed bottom-4 left-1/2 -translate-x-1/2 bg-black px-6 py-2 rounded-xl flex gap-4 border border-white z-50">
-      {socialLinks.map((icon, index) => (
-        <Link key={index} href={icon.href} target="_blank" rel="noopener noreferrer">
-          <Image
-            src={icon.src}
-            alt={icon.alt}
-            width={35}
-            height={35}
-            className="invert border-2 border-white rounded-md p-1 hover:scale-110 transition"
-          />
-        </Link>
-      ))}
+    <div className="fixed bottom-4 left-0 w-full flex justify-center z-50">
+      <div className="flex gap-4 bg-black p-2 rounded-lg border border-white shadow-md">
+        {socialLinks.map((icon, idx) => (
+          <a
+            key={idx}
+            href={icon.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 rounded border border-white hover:bg-white hover:invert transition-all"
+          >
+            <Image
+              src={icon.src}
+              alt={icon.alt}
+              width={28} // ⬅️ Increase this if you want
+              height={28}
+              className="object-contain invert"
+            />
+          </a>
+        ))}
+      </div>
     </div>
   );
-}
+};
+
+export default BottomBar;
