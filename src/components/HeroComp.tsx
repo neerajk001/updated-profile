@@ -16,10 +16,10 @@ const HeroComp = () => {
       <div>
         
         {/* Top row: profile image & icons */}
-        <div className="flex  gap-2 space-x-2 md:space-x-6">
+        <div className="flex  gap-2 space-x-4 md:space-x-6">
           
           {/* Profile Image */}
-          <div >
+          <div className='mt-3' >
             <Image
               className="rounded-xl border border-white object-cover p-1 w-30 h-30 md:w-[200px] md:h-[200px]"
               width={150}
@@ -38,20 +38,22 @@ const HeroComp = () => {
     </div>
           
           {/* Social Icons */}
-          <div className="flex mt-2   rounded h-8 w-auto items-center px-2 gap-2">
-            
-            {socialIcons.map((icon, idx) => (
-              <a key={idx} href={icon.href} target="_blank" rel="noopener noreferrer">
-                <Image
-                  className="object-contain invert   border-white"
-                  width={30}
-                  height={30}
-                  alt={icon.alt}
-                  src={icon.src}
-                />
-              </a>
-            ))}
-          </div>
+         <div className="flex mt-2 gap-3">
+  {socialIcons.map((icon, idx) => (
+    <a key={idx} href={icon.href} target="_blank" rel="noopener noreferrer">
+      <div className="p-1 border-1 border-white rounded-md hover:bg-white/10 transition">
+        <Image
+          className="object-cover invert"
+          width={30}
+          height={30}
+          alt={icon.alt}
+          src={icon.src}
+        />
+      </div>
+    </a>
+  ))}
+</div>
+
         </div>
         </div>
 
