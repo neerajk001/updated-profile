@@ -91,7 +91,7 @@ const HeroComp = () => {
       I’m <span className="text-white font-semibold">Neeraj Kushwaha</span>, a final-year Computer Engineering student with a focus on full-stack web development. I enjoy building practical, user-focused applications using the MERN stack (MongoDB, Express, React, Node.js).
     </p>
     <p className="text-gray-100 text-base md:text-lg leading-relaxed mt-2 md:mt-4">
-      I’ve worked on freelance and contract-based projects, where I handled both frontend and backend tasks. I'm always looking to learn, improve, and take on meaningful challenges.
+      I’ve worked on freelance and contract-based projects, where I handled both frontend and backend tasks. I am always looking to learn, improve, and take on meaningful challenges.
     </p>
     <p className="text-gray-100 text-base md:text-lg leading-relaxed mt-2 md:mt-4">
       Currently, I’m seeking internship opportunities to apply my skills, gain industry experience, and grow as a developer.
