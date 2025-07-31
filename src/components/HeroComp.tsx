@@ -19,7 +19,7 @@ const HeroComp = () => {
           {/* Profile Image */}
           <div>
             <Image
-              className="rounded-xl w-24 h-24 md:w-[200px] md:h-[200px]"
+              className="rounded-xl w-30 h-30 md:w-[200px] md:h-[200px]"
               width={150}
               height={150}
               alt="profile"
