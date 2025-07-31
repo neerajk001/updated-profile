@@ -19,13 +19,13 @@ const HeroComp = () => {
         <div className="flex  gap-2 space-x-2 md:space-x-6">
           
           {/* Profile Image */}
-          <div>
+          <div >
             <Image
-              className="rounded-xl w-30 h-30 md:w-[200px] md:h-[200px]"
+              className="rounded-xl border border-white object-cover p-1 w-30 h-30 md:w-[200px] md:h-[200px]"
               width={150}
               height={150}
               alt="profile"
-              src={"/profile.png"}
+              src={"/download (3).jpg"}
             />
           </div>
           <div>
