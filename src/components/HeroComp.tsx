@@ -16,7 +16,7 @@ const HeroComp = () => {
       <div>
         
         {/* Top row: profile image & icons */}
-        <div className="flex  gap-2 space-x-4 md:space-x-6">
+        <div className="flex  gap-2 space-x-2 md:space-x-6">
           
           {/* Profile Image */}
           <div>
@@ -31,14 +31,14 @@ const HeroComp = () => {
           <div>
             
            <div className="flex flex-col  space-x-3 ">
-            <span className="bg-green-900 text-green-300 px-3 py-1 rounded-full text-xs font-semibold w-[100px]">Available</span>
-      <h1 className="text-2xl md:text-3xl font-bold text-white mt-4">Neeraj Kushwaha </h1>
-     <p className='text-gray-200'>software engineer</p>
+            <span className="bg-green-900 text-green-300 px-3 py-0.5 mt-1 rounded-full text-xs font-semibold w-[100px]">Available</span>
+      <h1 className="text-xl md:text-3xl font-bold text-white mt-2">Neeraj Kushwaha </h1>
+     <p className='text-gray-200 text-sm'>software engineer</p>
       
     </div>
           
           {/* Social Icons */}
-          <div className="flex mt-4   rounded h-8 w-auto items-center px-2 gap-2">
+          <div className="flex mt-2   rounded h-8 w-auto items-center px-2 gap-2">
             
             {socialIcons.map((icon, idx) => (
               <a key={idx} href={icon.href} target="_blank" rel="noopener noreferrer">
@@ -56,7 +56,7 @@ const HeroComp = () => {
         </div>
 
         {/* Responsive action buttons */}
-        <div className="flex  gap-2 mt-4 md:flex-row md:gap-6 md:space-x-3">
+        <div className="flex  gap-2 mt-12 md:flex-row md:gap-6 md:space-x-3">
           <a
             href="/Neeraj_Resume.pdf"
             download
