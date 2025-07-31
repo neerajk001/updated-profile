@@ -1,19 +1,17 @@
 import About from "@/components/About";
-// import GithubStats from "@/components/GithubStats";
-// import Hero from "@/components/Hero";
+import BottomBar from "@/components/BottomBar";
 import HeroComp from "@/components/HeroComp";
-// import Navbar from "@/components/Navbar";
+
 import Projects from "@/components/Projects";
 
 
 export default function Home() {
   return (
    <div>
-       {/* <Navbar/> */}
-       {/* <Hero/> */} <HeroComp/>
-       {/* <GithubStats/> */}
+        <HeroComp/>
        <About/>
        <Projects/>
+        <BottomBar/>
    </div>
   );
 }
