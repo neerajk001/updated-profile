@@ -40,7 +40,7 @@ const skills = [
 
 const About = () => {
   return (
-    <section id="experience" className="py-24 px-6 md:px-12 lg:px-28 bg-black text-foreground ">
+    <section id="experience" className="py-20 px-6 md:px-12 lg:px-28 bg-black text-foreground ">
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
         <div className=" mx-4 mb-16">
