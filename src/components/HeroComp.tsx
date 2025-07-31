@@ -43,7 +43,7 @@ const HeroComp = () => {
         </div>
 
         {/* Responsive action buttons */}
-        <div className="flex items-center justify-center  gap-2 mt-4 md:flex-row md:gap-6 md:space-x-3">
+        <div className="flex  gap-2 mt-4 md:flex-row md:gap-6 md:space-x-3">
           <a
             href="/Neeraj_Resume.pdf"
             download
@@ -60,12 +60,12 @@ const HeroComp = () => {
         </div>
         
         {/* Name & tagline */}
-        <div className="md:text-4xl font-bold mt-6 space-y-2">
+        {/* <div className="md:text-4xl font-bold mt-6 space-y-2">
           Hii I am <span className="text-blue-700">Neeraj kushwaha</span>
           <p className="text-xl font-semibold text-gray-100">
             Turning coffee and code into real-world projects.
           </p>
-        </div>
+        </div> */}
       </div>
 
       {/* Right Column: About Section */}
