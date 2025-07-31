@@ -84,21 +84,21 @@ const HeroComp = () => {
       </div>
 
       {/* Right Column: About Section */}
-      <div>
-        <section id="about" className="py-4 px-2 md:px-6 max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-4xl font-bold text-white mb-2 md:mb-4">About Me</h2>
-          <p className="text-gray-400 text-base md:text-lg leading-relaxed">
-            Hey, I’m <span className="text-white font-semibold">Neeraj Kushwaha</span> — a 3rd year Computer Engineering student with a passion for web development and self-growth.
-            I’m on a journey to become a <span className="text-white font-medium">full-stack developer</span>, constantly improving my skills by building real-world projects using the MERN stack (MongoDB, Express, React, Node.js).
-          </p>
-          <p className="text-gray-400 text-base md:text-lg leading-relaxed mt-2 md:mt-4">
-            Beyond coding, I’m deeply committed to personal development. I believe in building not just apps, but also a better version of myself — every single day. I enjoy working on meaningful projects, editing videos, and learning by doing.
-          </p>
-          <p className="text-gray-400 text-base md:text-lg leading-relaxed mt-2 md:mt-4">
-            Right now, I’m actively looking for internship opportunities where I can apply my knowledge, grow with a team, and contribute to impactful solutions.
-          </p>
-        </section>
-      </div>
+     <div>
+  <section id="about" className="py-4 px-2 md:px-6 max-w-4xl mx-auto">
+    <h2 className="text-2xl md:text-4xl font-bold text-white mb-2 md:mb-4">About Me</h2>
+    <p className="text-gray-100 text-base md:text-lg leading-relaxed">
+      I’m <span className="text-white font-semibold">Neeraj Kushwaha</span>, a final-year Computer Engineering student with a focus on full-stack web development. I enjoy building practical, user-focused applications using the MERN stack (MongoDB, Express, React, Node.js).
+    </p>
+    <p className="text-gray-100 text-base md:text-lg leading-relaxed mt-2 md:mt-4">
+      I’ve worked on freelance and contract-based projects, where I handled both frontend and backend tasks. I'm always looking to learn, improve, and take on meaningful challenges.
+    </p>
+    <p className="text-gray-100 text-base md:text-lg leading-relaxed mt-2 md:mt-4">
+      Currently, I’m seeking internship opportunities to apply my skills, gain industry experience, and grow as a developer.
+    </p>
+  </section>
+</div>
+
     </div>
   )
 }
