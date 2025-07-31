@@ -29,7 +29,7 @@ const socialLinks = [
 
 export default function BottomBar() {
   return (
-    <div className="fixed bottom-4 left-1/2 -translate-x-1/2 bg-black px-6 py-2.5 rounded-xl flex gap-4 border border-white z-50">
+    <div className="fixed bottom-4 left-1/2 -translate-x-1/2 bg-black px-6 py-2 rounded-xl flex gap-4 border border-white z-50">
       {socialLinks.map((icon, index) => (
         <Link key={index} href={icon.href} target="_blank" rel="noopener noreferrer">
           <Image
