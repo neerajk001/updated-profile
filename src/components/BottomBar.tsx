@@ -37,7 +37,7 @@ const BottomBar = () => {
             href={icon.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="p-2 rounded border border-white hover:bg-white hover:invert transition-all"
+            className="p-2 rounded border border-white hover:bg-blue-600 hover:scale-50 hover:invert transition-all"
           >
             <Image
               src={icon.src}
