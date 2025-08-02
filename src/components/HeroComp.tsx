@@ -9,6 +9,27 @@ const socialIcons = [
   { src: '/email.png', alt: 'email', href: 'mailto:youremail@example.com' },
 ]
 
+const techStack = [
+  "aws.png",
+  "email.png",
+  "express.png",
+  "git.png",
+  "icons8-html-50.png",
+  "js.png",
+  "mongo.png",
+  "netlify.png",
+  "newVercel.png",
+  "next.png",
+  "node.png",
+  "react.png",
+  "real.png",
+  "rest-api.png",
+  "sql.png",
+  "tailwind.png",
+  "typescript.png",
+];
+
+
 const HeroComp = () => {
   return (
     <div className="max-w-8xl grid md:grid-cols-2 grid-cols-1 bg-black gap-4 md:gap-8 py-4` p-2 md:p-4">
@@ -81,11 +102,11 @@ const HeroComp = () => {
             Turning coffee and code into real-world projects.
           </p>
         </div> */}
-        <div className="mt-6 bg-gray-900 rounded-lg p-4 text-white w-full">
+        <div className="mt-8 bg-gray-900 rounded-lg p-4 text-white w-full ">
   <h3 className="text-green-400 text-sm font-semibold uppercase tracking-wide mb-2">
     📍 Now
   </h3>
-  <p className="text-sm leading-relaxed">
+  <p className="text-sm leading-relaxed ">
     🎯 Currently building an expense tracker SaaS that links with UPI and warns users when they cross monthly limits.
     <br />
     🧠 Learning how to structure scalable backend logic using Node.js & MongoDB.
@@ -98,7 +119,7 @@ const HeroComp = () => {
 
       {/* Right Column: About Section */}
      <div>
-  <section id="about" className="py-4 px-2 md:px-6 max-w-4xl mx-auto">
+  <section id="about" className="py-4 px-2 md:px-6 max-w-4xl mx-auto ">
     <h2 className="text-2xl md:text-4xl font-bold text-white mb-2 md:mb-4">About Me</h2>
     <p className="text-gray-100 text-base md:text-lg leading-relaxed">
       I’m <span className="text-white font-semibold">Neeraj Kushwaha</span>, a final-year Computer Engineering student with a focus on full-stack web development. I enjoy building practical, user-focused applications using the MERN stack (MongoDB, Express, React, Node.js).
@@ -109,6 +130,21 @@ const HeroComp = () => {
     <p className="text-gray-100 text-base md:text-lg leading-relaxed mt-2 md:mt-4">
       Currently, I’m seeking internship opportunities to apply my skills, gain industry experience, and grow as a developer.
     </p>
+    <div className="mt-2 w-full">
+  <h3 className="text-white text-md  mb-1">🛠️ Tech I Use Daily</h3>
+  <div className="flex flex-wrap gap-2">
+    {techStack.map((icon, index) => (
+      <div
+        key={index}
+        className=" border border-gray-600 rounded-lg p-1 flex items-center justify-center bg-gray-800"
+      >
+        <Image width={28} height={28}
+         src={`/${icon}`} alt={icon} className="max-w-full max-h-full" />
+      </div>
+    ))}
+  </div>
+</div>
+
   </section>
 </div>
 

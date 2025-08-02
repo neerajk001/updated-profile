@@ -41,7 +41,7 @@ const skills = [
 const About = () => {
   return (
     <section id="experience" className="py-20 px-6 md:px-12 lg:px-28 bg-black text-foreground ">
-      <div className="max-w-6xl mx-auto md:py-14">
+      <div className="max-w-6xl mx-auto ">
         {/* Heading */}
         <div className=" mx-4 mb-16">
           <h2 className="text-4xl md:text-5xl font-extrabold mb-4 "> Experience</h2>
