@@ -118,7 +118,7 @@ const Projects = () => {
                 className={` px-3 py-1 md:px-6 md:py-2 rounded-md font-medium transition-all ${
                   activeTab === tab
                     ? 'bg-background text-primary shadow'
-                    : 'text-muted-foreground hover:text-primary'
+                    : 'text-black hover:text-primary'
                 }`}
               >
                 {tab === 'fullstack' && 'Fullstack Projects'}

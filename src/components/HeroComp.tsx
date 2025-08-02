@@ -3,10 +3,10 @@ import Image from 'next/image'
 
 // Optional: Cleaner way to render icons (update hrefs as needed)
 const socialIcons = [
-  { src: '/icons8-linkedin.svg', alt: 'linkedin', href: 'https://linkedin.com' },
-  { src: '/icons8-github-logo.svg', alt: 'github', href: 'https://github.com' },
-  { src: '/icons8-x.svg', alt: 'x', href: 'https://x.com' },
-  { src: '/email.png', alt: 'email', href: 'mailto:youremail@example.com' },
+  { src: '/icons8-linkedin.svg', alt: 'linkedin', href: 'https://www.linkedin.com/in/neeraj-kushwaha-a17b2424b/' },
+  { src: '/icons8-github-logo.svg', alt: 'github', href: 'https://github.com/neerajk001' },
+  { src: '/icons8-x.svg', alt: 'x', href: 'https://x.com/kushwaha_012' },
+  { src: '/email.png', alt: 'email', href: 'mailto:workwithneeraj.01.com' },
 ]
 
 const techStack = [
@@ -111,7 +111,7 @@ const HeroComp = () => {
     <br />
     🧠 Learning how to structure scalable backend logic using Node.js & MongoDB.
     <br />
-    ✍️ Also working on documenting my coding journey on <a href="https://buildwithneeraj.com" className="underline text-blue-400">buildwithneeraj.com</a>.
+    ✍️ Also working on documenting my coding journey on <a href="https://buildwithneeraj.xyz" className="underline text-blue-400">buildwithneeraj.xyz</a>.
   </p>
 </div>
 

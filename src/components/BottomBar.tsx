@@ -2,26 +2,26 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
+
 
 const socialLinks = [
   {
-    href: 'https://www.linkedin.com/in/your-linkedin', // 🔁 replace with actual links
+    href: 'https://www.linkedin.com/in/neeraj-kushwaha-a17b2424b/', // 🔁 replace with actual links
     src: '/icons8-linkedin.svg',
     alt: 'LinkedIn',
   },
   {
-    href: 'https://github.com/your-github',
+    href: 'https://github.com/neerajk001',
     src: '/icons8-github-logo.svg',
     alt: 'GitHub',
   },
   {
-    href: 'https://twitter.com/your-x', // or X profile
+    href: 'https://x.com/kushwaha_012', // or X profile
     src: '/icons8-x.svg',
     alt: 'X',
   },
   {
-    href: 'mailto:your@email.com',
+    href: 'mailto:workwithneeraj.01@gmail.com',
     src: '/email.png',
     alt: 'Email',
   },
