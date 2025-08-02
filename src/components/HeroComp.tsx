@@ -81,6 +81,19 @@ const HeroComp = () => {
             Turning coffee and code into real-world projects.
           </p>
         </div> */}
+        <div className="mt-6 bg-gray-900 rounded-lg p-4 text-white w-full">
+  <h3 className="text-green-400 text-sm font-semibold uppercase tracking-wide mb-2">
+    📍 Now
+  </h3>
+  <p className="text-sm leading-relaxed">
+    🎯 Currently building an expense tracker SaaS that links with UPI and warns users when they cross monthly limits.
+    <br />
+    🧠 Learning how to structure scalable backend logic using Node.js & MongoDB.
+    <br />
+    ✍️ Also working on documenting my coding journey on <a href="https://buildwithneeraj.com" className="underline text-blue-400">buildwithneeraj.com</a>.
+  </p>
+</div>
+
       </div>
 
       {/* Right Column: About Section */}
