@@ -77,7 +77,24 @@ const projects = {
       live: 'https://example.com',
     },
   ],
+  design: [
+    {
+      title: 'Mental Health App UI',
+      description: 'Figma UI for a mindfulness & therapy platform',
+      tech: ['Figma', 'UI/UX'],
+      github: '',
+      live: 'https://www.figma.com/file/your-file-id',
+    },
+    {
+      title: 'Portfolio Redesign',
+      description: 'Redesigned personal portfolio in Figma',
+      tech: ['Figma'],
+      github: '',
+      live: 'https://www.figma.com/file/another-figma-file-id',
+    },
+  ],
 }
+
 
 const Projects = () => {
   const [activeTab, setActiveTab] = useState('fullstack')
@@ -94,7 +111,7 @@ const Projects = () => {
         {/* Tabs */}
         <div className="flex justify-center mb-12 text-black">
           <div className="flex bg-white text-black rounded-lg p-1 space-x-1">
-            {['fullstack', 'mini', 'landing'].map((tab) => (
+            {['fullstack', 'mini', 'landing','design'].map((tab) => (
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
@@ -107,6 +124,7 @@ const Projects = () => {
                 {tab === 'fullstack' && 'Fullstack Projects'}
                 {tab === 'mini' && 'Mini Projects'}
                 {tab === 'landing' && 'Landing Pages'}
+                {tab === 'design'  && "figma designs"}
               </button>
             ))}
           </div>
