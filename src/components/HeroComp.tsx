@@ -11,7 +11,7 @@ const socialIcons = [
 
 const HeroComp = () => {
   return (
-    <div className="max-w-8xl grid md:grid-cols-2 grid-cols-1 bg-black gap-4 md:gap-8 mt-4 p-2 md:p-4">
+    <div className="max-w-8xl grid md:grid-cols-2 grid-cols-1 bg-black gap-4 md:gap-8 py-4` p-2 md:p-4">
       {/* Left Column */}
       <div>
         
