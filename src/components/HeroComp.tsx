@@ -68,7 +68,7 @@ const HeroComp = () => {
           </a>
           <a
             href="#projects"
-            className="border border-white text-white px-4 py-1 text-sm rounded-lg font-semibold hover:bg-white hover:text-black transition md:px-6 md:py-2 md:text-base"
+            className=" animate-bounce border border-white text-white px-4 py-1 text-sm rounded-lg font-semibold hover:bg-white hover:text-black transition md:px-6 md:py-2 md:text-base"
           >
             View My Work
           </a>
