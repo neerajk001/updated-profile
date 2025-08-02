@@ -22,7 +22,6 @@ const techStack = [
   "next.png",
   "node.png",
   "react.png",
-  "real.png",
   "rest-api.png",
   "sql.png",
   "tailwind.png",
