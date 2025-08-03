@@ -45,7 +45,7 @@ const HeroComp = () => {
               width={150}
               height={150}
               alt="profile"
-              src={"/download (3).jpg"}
+              src={"/profile.png"}
             />
           </div>
           <div>
