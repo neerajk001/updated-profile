@@ -3,7 +3,7 @@ import { ThemeProvider } from "next-themes";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Your App",
+  title: "portfolio",
   description: "Best portfolio ever",
 };
 
