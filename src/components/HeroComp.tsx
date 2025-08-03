@@ -53,7 +53,7 @@ const HeroComp = () => {
            <div className="flex flex-col  space-x-3 ">
             <span className="bg-green-900 text-green-300 px-3 py-0.5 mt-1 rounded-full text-xs font-semibold w-[100px]">Available</span>
       <h1 className="text-xl md:text-3xl font-bold text-white mt-2">Neeraj Kushwaha </h1>
-     <p className='text-gray-200 text-sm'>software engineer</p>
+     <p className='text-gray-200 text-sm'>software engineer | designer</p>
       
     </div>
           
